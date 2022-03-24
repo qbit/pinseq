@@ -1,0 +1,11 @@
+{
+  "name": "pinseq",
+  "version": "0.0.1",
+  "description": "Sync pinboard.in bookmarks with a logseq page",
+  "main": "index.js",
+  "author": "Aaron Bieber",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.1-alpha.35"
+  }
+}
