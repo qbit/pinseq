@@ -9,5 +9,6 @@
     nativeBuildInputs = with pkgs.buildPackages; [
       nodePackages.typescript
       nodePackages.yarn
+      esbuild
     ];
 }
