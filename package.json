@@ -5,7 +5,11 @@
   "main": "index.js",
   "author": "Aaron Bieber",
   "license": "MIT",
+  "default": "index.html",
   "dependencies": {
     "@logseq/libs": "^0.0.1-alpha.35"
+  },
+  "logseq": {
+    "id": "_xoyzg9mvj"
   }
 }
