@@ -6,10 +6,16 @@
   "author": "Aaron Bieber",
   "license": "MIT",
   "default": "index.html",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --outdir=./dist --sourcemap; cp index.html ./dist/",
+    "clean": "rm -rf ./dist; rm -f index.js index.js.map",
+    "dev": "esbuild index.ts --bundle --outdir=./ --sourcemap"
+  },
   "dependencies": {
     "@logseq/libs": "^0.0.1-alpha.35"
   },
   "logseq": {
-    "id": "_xoyzg9mvj"
+    "id": "_xoyzg9mvj",
+    "main": "dist/index.html"
   }
 }
